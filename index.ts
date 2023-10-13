@@ -1,6 +1,6 @@
-﻿import { overlapping, varLetDecl } from './sections/LetConst';
+﻿import {letInnerForLoop, overlapping, updateGlobal, varLetDecl} from './sections/LetConst';
 
 
-varLetDecl();
+updateGlobal();
 
 console.log('Hello, World!');

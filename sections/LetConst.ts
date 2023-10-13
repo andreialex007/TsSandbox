@@ -14,13 +14,13 @@
 }
 
 export function greaterOrEqual() {
-    
+
     const MAX = 100;
-    if(MAX >= 100){
+    if (MAX >= 100) {
         const MAX = 1000;
         console.log(MAX)
     }
-    
+
     console.log(MAX)
 }
 
@@ -33,22 +33,23 @@ export function definingVar() {
     {
         let id = 40;
     }
-   // console.log(id)
-    
+    // console.log(id)
+
 }
 
-export function definingLet(){
-    
+export function definingLet() {
+
     function foo() {
         console.log(a)
     }
-    
+
     foo();
-    
+
     let a = 10;
-    
+
 }
-export function varLetDecl(){
+
+export function varLetDecl() {
     /*
     function foo(){
         var x = 2;
@@ -74,7 +75,26 @@ export function switchCaseLet() {
                 return discount;
         }
     }*/
-    
+}
+
+export function letInnerForLoop() {
+
+    let id = 42;
+    for (let id = 0; id < 10; id++) {
+    }
+    console.log(id); //42
+
+}
+
+export function updateGlobal() {
+
+    function update() {
+        id = 3;
+    }
+
+    let id = null;
+    update();
+    console.log(id)
     
 }
 
