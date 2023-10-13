@@ -1,5 +1,6 @@
-﻿// index.ts
-let myVar = 5;
+﻿import { overlapping, varLetDecl } from './sections/LetConst';
 
+
+varLetDecl();
 
 console.log('Hello, World!');
