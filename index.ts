@@ -1,5 +1,5 @@
-﻿import {funLength} from './sections/RestSpread';
+﻿import {arrSkipping} from './sections/Destructing';
 
-funLength();
+arrSkipping();
 
 console.log('Hello, World!');
