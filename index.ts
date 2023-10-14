@@ -1,6 +1,5 @@
-﻿import {letInnerForLoop, overlapping, updateGlobal, varLetDecl} from './sections/LetConst';
+﻿import {funLength} from './sections/RestSpread';
 
-
-updateGlobal();
+funLength();
 
 console.log('Hello, World!');
