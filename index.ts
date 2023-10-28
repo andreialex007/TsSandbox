@@ -1,5 +1,6 @@
 ﻿import {arrSkipping} from './sections/Destructing';
+import {decExample} from "./sections/Decorators";
 
-arrSkipping();
+decExample();
 
 console.log('Hello, World!');
